@@ -16,6 +16,7 @@
 		D33EC0B1215631B900AB85C6 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33EC0B0215631B900AB85C6 /* GoalCell.swift */; };
 		D33EC0B32156394C00AB85C6 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33EC0B22156394C00AB85C6 /* GoalType.swift */; };
 		D33EC0B5215669B400AB85C6 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33EC0B4215669B400AB85C6 /* CreateGoalVC.swift */; };
+		D33EC0B721566C5F00AB85C6 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33EC0B621566C5F00AB85C6 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D33EC0B0215631B900AB85C6 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		D33EC0B22156394C00AB85C6 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		D33EC0B4215669B400AB85C6 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		D33EC0B621566C5F00AB85C6 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		D33EC0AF2154C96B00AB85C6 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				D33EC0B621566C5F00AB85C6 /* UIViewControllerExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				D33EC0B32156394C00AB85C6 /* GoalType.swift in Sources */,
 				D33EC09A2154C8E200AB85C6 /* GoalsVC.swift in Sources */,
 				D33EC0982154C8E200AB85C6 /* AppDelegate.swift in Sources */,
+				D33EC0B721566C5F00AB85C6 /* UIViewControllerExt.swift in Sources */,
 				D33EC0A02154C8E200AB85C6 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

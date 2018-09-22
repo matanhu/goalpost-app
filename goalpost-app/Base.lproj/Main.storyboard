@@ -14,7 +14,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nsN-Wl-Ap4"/>
                         <viewControllerLayoutGuide type="bottom" id="mWo-bf-os3"/>
@@ -181,7 +181,7 @@
         <!--Create GoalVC-->
         <scene sceneID="fqd-99-I9a">
             <objects>
-                <viewController id="CnW-R8-Bfp" customClass="CreateGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="CnW-R8-Bfp" customClass="CreateGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q6z-wQ-YCu"/>
                         <viewControllerLayoutGuide type="bottom" id="0kB-vk-ZfR"/>
