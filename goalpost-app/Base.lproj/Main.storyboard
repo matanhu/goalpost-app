@@ -317,6 +317,126 @@
             </objects>
             <point key="canvasLocation" x="870" y="38"/>
         </scene>
+        <!--Finish GoalVC-->
+        <scene sceneID="myx-8E-FBQ">
+            <objects>
+                <viewController storyboardIdentifier="FinishGoalVC" id="BXz-bC-JVF" customClass="FinishGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V7b-N0-wFH"/>
+                        <viewControllerLayoutGuide type="bottom" id="RJT-SS-8LO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gel-Nr-N7L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iJ2-w5-QMy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgw-9U-vCi">
+                                        <rect key="frame" x="138" y="33" width="99" height="25"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue8-eI-K1l">
+                                                <rect key="frame" x="0.0" y="0.0" width="51" height="25"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igb-uh-a1F">
+                                                <rect key="frame" x="51" y="0.0" width="48" height="25"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVG-BK-oYJ">
+                                        <rect key="frame" x="15" y="33" width="14" height="25"/>
+                                        <state key="normal" image="back"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.42745098040000001" green="0.73725490199999999" blue="0.38823529410000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="pgw-9U-vCi" secondAttribute="bottom" constant="12" id="B6P-fh-lGL"/>
+                                    <constraint firstItem="pgw-9U-vCi" firstAttribute="centerX" secondItem="iJ2-w5-QMy" secondAttribute="centerX" id="VbX-hl-0EH"/>
+                                    <constraint firstAttribute="height" constant="70" id="fjM-I8-CYk"/>
+                                    <constraint firstItem="lVG-BK-oYJ" firstAttribute="leading" secondItem="iJ2-w5-QMy" secondAttribute="leading" constant="15" id="hPe-LC-KCB"/>
+                                    <constraint firstItem="lVG-BK-oYJ" firstAttribute="centerY" secondItem="pgw-9U-vCi" secondAttribute="centerY" id="ufn-fA-o5M"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="t7V-NV-GUl">
+                                <rect key="frame" x="36" y="90" width="303" height="110"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How many point until complete?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCm-Ee-wT8">
+                                        <rect key="frame" x="18.5" y="0.0" width="266" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="CT4-Ks-7gk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IXA-CW-6O5">
+                                        <rect key="frame" x="132" y="35" width="39" height="75"/>
+                                        <color key="textColor" red="0.42745098039215684" green="0.73725490196078436" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="54"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="tbI-Wd-u2s"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kqV-zx-qbH">
+                                <rect key="frame" x="0.0" y="208" width="375" height="459"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hu9-8w-cfa">
+                                        <rect key="frame" x="0.0" y="409" width="375" height="50"/>
+                                        <color key="backgroundColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="9KS-YP-UAW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                        <state key="normal" title="CREATE GOAL">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="createGoalBtnWasPressed:" destination="BXz-bC-JVF" eventType="touchUpInside" id="vrv-Fe-IU3"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Hu9-8w-cfa" firstAttribute="leading" secondItem="kqV-zx-qbH" secondAttribute="leading" id="dfF-5K-MkU"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hu9-8w-cfa" secondAttribute="trailing" id="idG-pQ-Jmq"/>
+                                    <constraint firstAttribute="bottom" secondItem="Hu9-8w-cfa" secondAttribute="bottom" id="lbS-U4-FF2"/>
+                                    <constraint firstItem="Hu9-8w-cfa" firstAttribute="leading" secondItem="kqV-zx-qbH" secondAttribute="leading" id="lhH-Rn-c5s"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hu9-8w-cfa" secondAttribute="trailing" id="mhT-8a-8HB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kqV-zx-qbH" firstAttribute="top" secondItem="t7V-NV-GUl" secondAttribute="bottom" constant="8" id="27L-Ka-f82"/>
+                            <constraint firstItem="RJT-SS-8LO" firstAttribute="top" secondItem="kqV-zx-qbH" secondAttribute="bottom" id="BBJ-I6-dkq"/>
+                            <constraint firstItem="iJ2-w5-QMy" firstAttribute="top" secondItem="gel-Nr-N7L" secondAttribute="top" id="NsY-3i-TGZ"/>
+                            <constraint firstAttribute="trailing" secondItem="iJ2-w5-QMy" secondAttribute="trailing" id="TyY-EM-da3"/>
+                            <constraint firstItem="iJ2-w5-QMy" firstAttribute="leading" secondItem="gel-Nr-N7L" secondAttribute="leading" id="cv1-Zl-DtB"/>
+                            <constraint firstItem="t7V-NV-GUl" firstAttribute="leading" secondItem="gel-Nr-N7L" secondAttribute="leadingMargin" constant="20" id="jUF-a6-WnO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t7V-NV-GUl" secondAttribute="trailing" constant="20" id="kNB-WD-mHs"/>
+                            <constraint firstAttribute="trailing" secondItem="kqV-zx-qbH" secondAttribute="trailing" id="kNy-3i-47Q"/>
+                            <constraint firstItem="t7V-NV-GUl" firstAttribute="top" secondItem="iJ2-w5-QMy" secondAttribute="bottom" constant="20" id="kji-DJ-xEh"/>
+                            <constraint firstItem="kqV-zx-qbH" firstAttribute="leading" secondItem="gel-Nr-N7L" secondAttribute="leading" id="wdD-47-dsm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="createGoalBtn" destination="Hu9-8w-cfa" id="y35-Zc-JWJ"/>
+                        <outlet property="pointsTextField" destination="IXA-CW-6O5" id="VCn-us-NTq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7K-eP-yCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632.8" y="37.331334332833585"/>
+        </scene>
     </scenes>
     <resources>
         <image name="addGoal" width="35" height="32"/>
